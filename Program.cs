@@ -9,8 +9,7 @@ class Program
 {
     private static readonly HttpClient client = new HttpClient();
     private const string baseUrl = "https://fapi.binance.com";
-    private const string telegramBotToken = "7100155606:AAFYzDA6ds1_eq1CI1cmgWv5E3Artlaacxw";
-    private const string telegramChatId = "-1002314543272";
+
     private static readonly Dictionary<string, DateTime> signaledSymbols = new Dictionary<string, DateTime>();
 
     static async Task Main(string[] args)
